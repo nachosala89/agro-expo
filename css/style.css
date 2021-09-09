@@ -58,7 +58,7 @@ nav img {
   color: #555555;
 }
 
-#headline p {
+.main-description {
   font-size: 15px;
   color: #333333;
   background-color: rgb(238, 238, 238);
@@ -135,34 +135,34 @@ hr {
   text-align: center;
 }
 
-#speakers img {
+.white-sec img {
   width: 140px;
   margin-right: 20px;
 }
 
-#speakers h2 {
+.white-sec h2 {
   text-align: center;
 }
 
-#speakers h3 {
+.white-sec h3 {
   font-size: 22px;
   font-weight: 700;
 }
 
-#speakers h4 {
+.white-sec h4 {
   font-size: 13px;
   color: #ec5242;
   font-weight: 700;
   font-style: italic;
 }
 
-#speakers hr {
+#main-speakers hr {
   width: 30px;
   color: #d3d3d3;
   margin-left: 0;
 }
 
-#speakers p {
+.white-sec p {
   font-size: 14px;
 }
 
@@ -176,25 +176,88 @@ hr {
   text-align: center;
 }
 
-#license img {
+.license img {
   width: 30px;
 }
 
-#license h2 {
+.license h2 {
   font-size: 24px;
   line-height: 16px;
   font-weight: 700;
 }
 
-#license h3 {
+.license h3 {
   font-size: 16px;
   font-weight: 700;
 }
 
-#license p {
+.license p {
   font-size: 13px;
 }
- 
+
+#about-desc {
+  background-color: white;
+  border: 2px solid #cfcece;
+}
+
+#contact-text a {
+  color: rgb(17, 17, 17);
+}
+
+#about-license {
+  color: white;
+  background-color: #2e2e2e;
+}
+
+#about-license img {
+  filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(214deg) brightness(103%) contrast(100%);
+}
+
+#big-logo {
+  width: 40%;
+}
+
+.past-item {
+  height: 160px;
+  width: 300px;
+  color: white;
+  position: relative;
+  padding: 0;
+}
+
+.past-item h3 {
+  font-size: 26px;
+  position: relative;
+  z-index: 20;
+}
+
+#expo18 {
+  background-image: url(../images/past-expos/expo2018.jpg);
+  background-size: cover;
+}
+
+#expo19 {
+  background-image: url(../images/past-expos/expo2019.jpg);
+  background-size: cover;
+}
+
+.inner-past-item {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-past-item::before {
+  background-color: #ec5242;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  box-sizing: content-box;
+}
+
 @media only screen and (min-width: 768px) {
   #headline h1 {
     font-size: 90px;
