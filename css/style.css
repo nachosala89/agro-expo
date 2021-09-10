@@ -65,6 +65,7 @@ nav img {
   color: white;
   position: relative;
   padding: 0;
+  cursor: pointer;
 }
 
 .past-item h3 {
@@ -89,7 +90,6 @@ nav img {
   height: 100%;
   opacity: 0.2;
   z-index: -1;
-  box-sizing: content-box;
   padding-bottom: 56px;
 }
 
