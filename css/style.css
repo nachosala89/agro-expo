@@ -89,11 +89,6 @@ nav img {
   text-decoration: none;
 }
 
-#main-navbar a:hover,
-#dark-menu a:hover {
-  color: #ec5242;
-}
-
 #headline {
   min-height: 100vh;
   width: auto;
@@ -186,6 +181,7 @@ hr {
 #program p {
   color: white;
   font-size: 14px;
+  text-align: center;
 }
 
 #program li {
@@ -239,6 +235,11 @@ hr {
   color: rgb(17, 17, 17);
 }
 
+#main-navbar a:hover,
+#dark-menu a:hover {
+  color: #ec5242;
+}
+
 #about-license {
   color: white;
   background-color: #2e2e2e;
@@ -249,7 +250,7 @@ hr {
 }
 
 .white-transform {
-  fill: #ffffff !important;
+  fill: #fff;
 }
 
 #big-logo {
