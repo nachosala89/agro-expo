@@ -3,37 +3,37 @@ const speakers = [
     image: './images/speakers/person1.jpeg',
     name: 'Pedro Sanchez',
     job: 'Veterinary Medicine Professor at the University of La Plata',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    description: 'Mr. Sanchez comes to present the latest discoveries in the field of artificial insemination, from his course in the UNLP.',
   },
   {
     image: './images/speakers/person2.jpeg',
     name: 'Jimena Gonzalez',
     job: 'Agricultural Engineering Professor at the University of Buenos Aires',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    description: 'After spending more than 20 years developing the Voisin farming technic, Ms. Gonzalez will share us her main tips for a perfect cultivation.',
   },
   {
     image: './images/speakers/person3.jpeg',
     name: 'Claudia Rodriguez',
     job: 'Researcher in CONICET',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    description: 'The alternative power sources are here to stay. The Engineer Rodriguez will show us the main alternatives to replace the tradicional sources in rural zones.',
   },
   {
     image: './images/speakers/person4.jpeg',
     name: 'Jorge Gomez',
     job: 'Researcher in INTA',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    description: 'Mr. Gomez will present us his last published book "Good seeds, good harvests", and will explain us why the first step into have the best cultivation is to have the best genetics in your seeds.',
   },
   {
     image: './images/speakers/person5.jpeg',
     name: 'Osvaldo Gimenez',
     job: 'CEO of Agrosur',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    description: 'From being a little rural hardware store to be the main distributor in the province, Mr. Gimenez will share us his secrets for his success in the market.',
   },
   {
     image: './images/speakers/person6.jpeg',
     name: 'Juan Perez',
-    job: 'Industrial Disegner at Techint',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+    job: 'Industrial Designer at Techint',
+    description: 'The design of the products we want to sell is an important part to achieve our selling goals. And the rural products are not the exception. Mr. Perez will tell us about his experience working in a big company like Techint.',
   },
 ];
 
@@ -46,7 +46,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   }
 
   const article = document.createElement('article');
-  article.classList.add('col-lg-5', 'd-flex', 'align-items-start');
+  article.classList.add('col-lg-5', 'd-flex', 'align-items-start', 'py-2');
   const image = document.createElement('img');
   image.setAttribute('src', speakers[i].image);
   image.setAttribute('alt', 'Speaker Photo');

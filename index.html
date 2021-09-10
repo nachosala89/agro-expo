@@ -9,45 +9,72 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-        <a class="navbar-brand" href="./index.html">
-          <img src="./images/expobavio-logo.png" alt="Expobavio Logo">
-        </a>
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item px-3">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#program">Program</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#speakers">Speakers</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="#sponsors">Sponsors</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="./about.html#contact-text">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <main>
-    <section id="headline" class="container d-flex flex-column justify-content-center">
-      <div class="col-md-6 offset-md-1 h-100 pt-5">
-        <div class="lower-index">
-          <h2 class="pb-2">Week for local rural development</h2>
-          <h1>EXPOBAVIO<br>2021</h1>
+  <section class="fixed-top">
+    <nav id="dark-menu" class="d-none d-lg-flex">
+      <ul class="container d-flex justify-content-between align-items-center offset-7 col-3 h-100">
+        <li>
+          <a href="#">
+            <img class="black-to-white" src="./images/social/facebook.svg" alt="Facebook link">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="white-transform" src="./images/social/twitter.svg" alt="Twitter link">
+          </a>
+        </li>
+        <li>
+          <a href="#">English</a>
+        </li>
+        <li>
+          <a href="#">My Page</a>
+        </li>
+        <li>
+          <a href="#">Logout</a>
+        </li>
+    </ul>
+    </nav>
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./images/expobavio-logo.png" alt="Expobavio Logo">
+          </a>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./index.html#program">Program</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./index.html#speakers">Speakers</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./index.html#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        <p class="main-description px-md-4 pt-md-2 pb-md-3">More than 30 years promoting productive and commercial development in the province of Buenos Aires, Argentina</p>
-        <h3>2021.09.23(THU) ~ 26(SUN)</h3>
-        <h4>@ Agricultural High School "Gral. Lucio Mansilla", Bavio</h4>
+      </div>
+    </nav>
+  </section> 
+  <main>
+    <section id="headline" class="pt-5">
+      <div class="container d-flex flex-column justify-content-center pt-5">
+        <div class="col-md-6 offset-md-1 h-100 pt-5">
+          <div class="lower-index">
+            <h2 class="pb-2">Week for local rural development</h2>
+            <h1>EXPOBAVIO<br>2021</h1>
+          </div>
+          <p class="main-description px-md-4 pt-md-2 pb-md-3 mb-md-3">More than 30 years promoting productive and commercial development in the province of Buenos Aires, Argentina</p>
+          <h3>2021.09.23(THU) ~ 26(SUN)</h3>
+          <h4>@ Agricultural High School "Gral. Lucio Mansilla", Bavio</h4>
+        </div>
       </div>
     </section>
     <section id="program">

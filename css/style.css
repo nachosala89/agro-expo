@@ -74,9 +74,30 @@ nav img {
   z-index: 20;
 }
 
+#dark-menu {
+  background-color: #3e3e3e;
+  height: 28px;
+  font-size: 14px;
+}
+
+#dark-menu img {
+  height: 20px;
+}
+
+#dark-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-navbar a:hover,
+#dark-menu a:hover {
+  color: #ec5242;
+}
+
 #headline {
   min-height: 100vh;
   width: auto;
+  position: relative;
 }
 
 #headline::before {
@@ -223,8 +244,12 @@ hr {
   background-color: #2e2e2e;
 }
 
-#about-license img {
+.black-to-white {
   filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(214deg) brightness(103%) contrast(100%);
+}
+
+.white-transform {
+  fill: #ffffff !important;
 }
 
 #big-logo {
