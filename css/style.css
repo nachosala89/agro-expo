@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('http://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav img {
+  height: 40px;
+  width: auto;
+}
+
+.white-sec img {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.white-sec h2 {
+  text-align: center;
+}
+
+.white-sec h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.white-sec h4 {
+  font-size: 13px;
+  color: #ec5242;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.white-sec p {
+  font-size: 14px;
+}
+
+.license img {
+  width: 30px;
+}
+
+.license h2 {
+  font-size: 24px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.license h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.license p {
+  font-size: 13px;
+}
+
+.past-item {
+  height: 160px;
+  width: 300px;
+  color: white;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+}
+
+.past-item h3 {
+  font-size: 26px;
+  position: relative;
+  z-index: 20;
+}
+
+#dark-menu {
+  background-color: #3e3e3e;
+  height: 28px;
+  font-size: 14px;
+}
+
+#dark-menu img {
+  height: 20px;
+}
+
+#dark-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#headline {
+  min-height: 100vh;
+  width: auto;
+  position: relative;
+}
+
+#headline::before {
+  content: "";
+  background-image: url(../images/main-section.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+  padding-bottom: 56px;
+}
+
+#headline h1 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 13vw;
+  line-height: 11vw;
+  color: #ec5242;
+}
+
+#headline h2 {
+  font-size: 6vw;
+  line-height: 3.4vw;
+  color: #ec5242;
+}
+
+#headline h3 {
+  font-family: 'Cocogoose', sans-serif;
+  color: #555;
+}
+
+#headline h4 {
+  font-size: 20px;
+  color: #555;
+}
+
+.main-description {
+  font-size: 15px;
+  color: #333;
+  background-color: rgb(238, 238, 238);
+  border: 2px solid white;
+}
+
+.lower-index {
+  position: relative;
+  z-index: -2;
+}
+
+#program {
+  background-image: url(../images/program-bg.png);
+  background-size: 30px;
+}
+
+#program h2 {
+  color: white;
+  text-align: center;
+}
+
+hr {
+  width: 50px;
+  height: 2px;
+  color: #ec5242;
+  opacity: 1;
+  margin: auto;
+}
+
+#main-speakers hr {
+  width: 30px;
+  color: #d3d3d3;
+  margin-left: 0;
+}
+
+#program h3 {
+  color: #ec5242;
+  position: relative;
+  z-index: 20;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  min-width: 130px;
+}
+
+#program p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+#program li {
+  position: relative;
+  margin: 2px;
+}
+
+#program li:hover {
+  border: 2px solid white;
+}
+
+#program li::before {
+  background-color: white;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#program img {
+  max-width: 80px;
+  max-height: 80px;
+  margin: 8px;
+}
+
+#program a {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+#sponsors {
+  background-color: #414246;
+  color: #8d8d8d;
+  text-align: center;
+}
+
+#sponsors h2 {
+  text-align: center;
+}
+
+#about-desc {
+  background-color: white;
+  border: 2px solid #cfcece;
+}
+
+#contact-text a {
+  color: rgb(17, 17, 17);
+}
+
+#main-navbar a:hover,
+#dark-menu a:hover {
+  color: #ec5242;
+}
+
+#about-license {
+  color: white;
+  background-color: #2e2e2e;
+}
+
+.black-to-white {
+  filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(214deg) brightness(103%) contrast(100%);
+}
+
+.white-transform {
+  fill: #fff;
+}
+
+#big-logo {
+  width: 40%;
+}
+
+#expo18 {
+  background-image: url(../images/past-expos/expo2018.jpg);
+  background-size: cover;
+}
+
+#expo19 {
+  background-image: url(../images/past-expos/expo2019.jpg);
+  background-size: cover;
+}
+
+.inner-past-item {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-past-item::before {
+  background-color: #ec5242;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  box-sizing: content-box;
+}
+
+@media only screen and (min-width: 768px) {
+  #headline h1 {
+    font-size: 90px;
+    line-height: 80px;
+  }
+
+  #headline h2 {
+    font-size: 40px;
+  }
+
+  #headline::before {
+    padding-bottom: 66px;
+  }
+}
