@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Expobavio web site
+# Expobavio website
 
 > This project is proposed by Microverse as capstone project for the first module. The topic I chose to work on is creating a website for a rural exhibition that took place in my town every year before Covid. The design was obtained from [this template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
